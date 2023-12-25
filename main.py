@@ -9,3 +9,6 @@ for char in string:
     elif char.isdigit():
         digit_count += 1
 print("Кількість літер у рядку: ", letter_count)
+print("Кількість цифр у рядку: ", digit_count)
+
+################################################################
