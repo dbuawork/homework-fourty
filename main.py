@@ -45,10 +45,10 @@ print(river[2:3])
 print(river[4:5])
 print(river[:5])
 print(river[:4])
-#print(river[:])
-#print(river[1:])
+print(river[::2])
+print(river[1::2])
 print(river[::-1])
 print(river[::-2])
-print(len("Dmytro"))
+print(len(river))
 
 
