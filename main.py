@@ -13,12 +13,20 @@
 #
 # ################################################################
 
-numwords = list(map(int,input("Введіть ряд чисел для пошуку: ").split()))
-numdigits = int(input("Введіть число для пошуку: "))
+# numwords = list(map(int,input("Введіть ряд чисел для пошуку: ").split()))
+# numdigits = int(input("Введіть число для пошуку: "))
+#
+# num = 0
+#
+# for i in numwords:
+#     if i == numdigits:
+#         num += 1
+# print(f"Число {numdigits} зустрічається {num} разів")
 
-num = 0
 
-for i in numwords:
-    if i == numdigits:
-        num += 1
-print(f"Число {numdigits} зустрічається {num} разів")
+string = input("Введіть з клавіатури рядок: ")
+
+search_word = input("Введіть слово яке потрібно знайти: ")
+
+replace_word = input("Введіть слово яким потрібно замінить: ")
+
