@@ -48,5 +48,6 @@ print(river[:4])
 #print(river[:])
 #print(river[1:])
 print(river[::-1])
-print(river[::-1])
+print(river[::-2])
+
 
