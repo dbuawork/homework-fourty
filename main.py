@@ -25,10 +25,17 @@
 
 
 string = input("Введіть з клавіатури рядок: ")
-
 search_word = input("Введіть слово яке потрібно знайти: ")
-
 replace_word = input("Введіть слово яким потрібно замінить: ")
 
-words = strting.split()
+words = string.split()
 modified_words = []
+
+for word in words:
+   if word == search_word:
+       modified_words.append(replace_word)
+   else:
+       modified_words.append(word)
+modified_string = " ".join(modified_words)
+print(modified_string)
+
