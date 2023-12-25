@@ -49,5 +49,6 @@ print(river[:4])
 #print(river[1:])
 print(river[::-1])
 print(river[::-2])
+print(len("Dmytro"))
 
 
